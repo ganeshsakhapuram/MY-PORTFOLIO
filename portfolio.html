@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a192f;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .header {
+            font-size: 32px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #00ffff;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 10px rgba(0, 255, 255, 0.8);
+            letter-spacing: 3px;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+        }
+        .profile img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.1);
+        }
+        .description {
+            text-align: left;
+            flex: 1;
+        }
+        .description h1 {
+            font-size: 36px;
+        }
+        .description span {
+            color: #ff69b4;
+            font-weight: bold;
+        }
+        .description .highlight {
+            color: #00ff99;
+            font-weight: bold;
+        }
+        .social-links {
+            margin-top: 10px;
+        }
+        .social-links a {
+            color: #00ffff;
+            margin-right: 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons a {
+            margin: 5px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .contact-btn {
+            background: transparent;
+            border: 2px solid #00ffff;
+            color: #00ffff;
+        }
+        .contact-btn:hover {
+            background: #00ffff;
+            color: #0a192f;
+        }
+        .resume-btn {
+            background: #ff69b4;
+            color: white;
+        }
+        .resume-btn:hover {
+            background: white;
+            color: #ff69b4;
+        }
+        .projects {
+            margin-top: 50px;
+            text-align: center;
+            width: 80%;
+        }
+        .projects h2 {
+            color: #00ffff;
+        }
+        .project-list {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .project {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+            width: 30%;
+            transition: transform 0.3s;
+        }
+        .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+        }
+        .code-box {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+            font-family: monospace;
+            white-space: pre;
+            text-align: left;
+            width: 60%;
+            margin-top: 50px;
+        }
+        *:hover {
+            transition: 0.3s;
+            filter: brightness(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">★ S V MURALI GANESH ★</div>
+    <div class="container">
+        <div class="description">
+            <h1>Hello,<br>This is <span>murali ganesh</span>,<br>I'm a <span class="highlight">Professional Python Full Stack Developer</span>.</h1>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/venkata-murali-ganesh-sakhapuram-3609682b6" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ganeshsakhapuram" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="buttons">
+                <a href="mailto:muraliganessk18@gmail.com?subject=Contact%20Request&body=Hello%20Murali%20Ganesh," class="contact-btn">CONTACT ME</a>
+                <a href="tel:9949692732" class="contact-btn">CALL ME</a>
+                <a href="ganesh_resume.pdf" class="resume-btn" target="_blank">GET RESUME</a>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="https://i.postimg.cc/26VtP1Nj/photo.jpg" alt="Profile Picture">
+        </div>
+    </div>
+    <div class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">Project 1: E-commerce Website</div>
+            <div class="project">Project 2: Portfolio Website</div>
+            <div class="project">Project 3: Chat Application</div>
+        </div>
+    </div>
+    <div class="code-box">
+        const developer = {
+            name: "S V MURALI GANESH",
+            skills: ["Python", "Flask", "Django", "HTML", "CSS", "JavaScript", "MySQL"],
+            eagerToApplySkills: "Creating impactful web solutions",
+            hardWorker: true,
+            problemSolving: true,
+            analyticalThinking: true
+        };
+    </div>
+</body>
+</html>
