@@ -5,5 +5,5 @@ A brief description of the project.
 
 ## Screenshots 📸
 ### Homepage
-![Homepage Screenshot](https://raw.githubusercontent.com/yourusername/repository-name/main/assets/homepage.png)
+![Homepage Screenshot](https://raw.githubusercontent.com/ganeshsakhapuram/portfolio/main/assets/homepage.png)
 
