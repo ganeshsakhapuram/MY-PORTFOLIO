@@ -5,5 +5,4 @@ A brief description of the project.
 
 ## Screenshots 📸
 ### Homepage
-![Homepage Screenshot](https://raw.githubusercontent.com/ganeshsakhapuram/portfolio/main/assets/homepage.png)
-
+![Homepage Screenshot](https://github.com/ganeshsakhapuram/MY-PORTFOLIO/blob/main/Screenshot%202025-02-21%20211941.png)
